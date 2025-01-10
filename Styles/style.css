@@ -368,3 +368,148 @@ table td{
     background-color: brown;
     cursor: pointer;
 }
+
+
+/* Donate style */
+.donate{
+    /* background-color: #c6e6d6; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.donate-para{
+   width: 70%;
+    text-align: center;
+    margin-left: 300px;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.donate-title{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.donate-parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+/* .child{
+    height: 100px;
+    width: 228px;
+    background-color: #FFC239;
+    text-align: center;
+    
+} */
+.child h2{
+   padding: 29px;
+   font-size: 35px;
+   
+}
+/* .donate-parent .no3{
+    background-color: #C6E4D6;
+} */
+
+.donate-btn{
+   border-radius: 20px;
+   background-color: white;
+   border: none;
+}
+
+.no3{
+    background-color:#C6E4D6;
+    border-radius: 20px;
+}
+.donate-btn:hover{
+    background-color:tomato;
+    cursor: pointer;
+    color: white;
+}
+.no3:hover{
+    background-color: rgb(73, 106, 215);
+    color: white;
+}
+
+.d-input{
+    height: 64px;
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 0.1rem;
+}
+
+
+/* Newsletter Style */
+.newsletter{
+    margin: auto;
+    width: 75%;
+    height: 400px;
+    background-color:#C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-bottom: 200px;
+    
+}
+.newsletter-content{
+    background-color:#C6E4D6;
+    text-align: center;
+    width: 40%;
+    margin-left: 120px;
+}
+.newsletter-content h1{
+    font-size: 40px;
+    padding: 20px;
+    letter-spacing: 0.1rem;
+    
+}
+
+.newsletter-content p{
+    font-size: 17px;
+    opacity: 70%;
+}
+
+.mail-input{
+    height: 20px;
+    margin-top: 50px;
+    width: 70%;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    border: none;
+    font-size: 17px;
+}
+
+.input-div{
+    width: 70%;
+    align-items: center;
+    text-align: center;
+}
+
+.subs-btn{
+    height: 60px;
+    border: none;
+    position: absolute;
+    /* margin-right: 20px; */
+    margin-top: 50px;
+    width: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #006A50;
+    color: white;
+    font-size: 20px;
+}
+.subs-btn:hover{
+    background-color: brown;
+    cursor: pointer;
+}
