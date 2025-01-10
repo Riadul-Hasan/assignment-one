@@ -12,9 +12,12 @@
 *{
     margin: 0px;
     padding: 0px;
+ 
 }
 /* Similar class */
-
+body{
+    background-color:#F1F1F3;;
+}
 /* Nav-Bar Style */
 .nav-bar{
     display: flex;
@@ -93,4 +96,46 @@
     background-color: #006A50;
     padding: 10px;
     margin-top: 20px;
+}
+
+/* Pillar section */
+.pillar-section{
+    /* background-color: #C6E4D6; */
+    margin-top: 80px;
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 100px;
+
+}
+
+.pillar-section .subtitle{
+    padding: 10px;
+    font-size:40px ;
+    margin-bottom: 20px;
+    
+}
+
+.pillar-image{
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    max-width: 350px;
+}
+.pillar-images{
+    display: flex;
+    gap: 0px;
+}
+.pillar-image h4{
+    font-size: 27px;
+    margin: 20px 0px 20px 0px;
+}
+
+.pillar-image p{
+    opacity: 70%;
 }
