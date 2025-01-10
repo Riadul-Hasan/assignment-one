@@ -1,0 +1,96 @@
+
+
+.open-sans-normal> {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Similar class */
+
+/* Nav-Bar Style */
+.nav-bar{
+    display: flex;
+    /* background-color: beige; */
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-bar h1{
+    font-size: 34px;
+    font-weight: 600px;
+}
+
+.nav-bar button{
+    height: 50px;
+    width: 96px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1.5px solid green;
+    font-size: medium;
+    padding: 10px;
+    font-weight: 550;
+    color: green;
+    cursor: pointer;
+}
+.nav-bar button:hover{
+    background-color:#00A859;
+    color: red;
+}
+
+
+
+/* Hero section styles */
+.hero-section{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.hero-section .hero-content{
+    width: 40%;
+    margin-bottom: 60px;
+}
+.hero-section .hero-content h4{
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 0px;
+    color: #777575;
+}
+.hero-content h1{
+    font-size: 40px;
+    line-height: 2.8rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.hero-content button{
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #006A50;
+    padding: 10px;
+    margin-top: 20px;
+}
