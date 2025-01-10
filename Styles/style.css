@@ -89,6 +89,7 @@ body{
     margin-top: 100px;
     height: 600px;
     border-radius: 15px;
+    margin-bottom: 200px;
 }
 
 .hero-section .hero-content{
@@ -135,7 +136,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
 }
 
@@ -414,6 +415,13 @@ table td{
     background-color: #C6E4D6;
 } */
 
+.donate-done-btn{
+    margin-top: 50px;
+}
+.donate-done-btn:hover{
+    background-color: brown;
+    cursor: pointer;
+}
 .donate-btn{
    border-radius: 20px;
    background-color: white;
@@ -478,6 +486,7 @@ table td{
     opacity: 70%;
 }
 
+
 .mail-input{
     height: 20px;
     margin-top: 50px;
@@ -512,4 +521,11 @@ table td{
 .subs-btn:hover{
     background-color: brown;
     cursor: pointer;
+}
+
+
+.newsletter .news-para{
+    font-size: 16px;
+    margin-top: 20px;
+    opacity: 70%;
 }
