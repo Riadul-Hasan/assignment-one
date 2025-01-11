@@ -162,12 +162,13 @@ body {
     border-radius: 10px;
     padding: 20px;
     align-items: center;
-    max-width: 350px;
+    width: 30%;
 }
 
 .pillar-images {
     display: flex;
     gap: 0px;
+    width: 100%;
 }
 
 .pillar-image h4 {
@@ -209,6 +210,7 @@ body {
     height: 300px;
     padding: 40px;
     border-radius: 15px;
+    width: 40%;
 }
 
 .vision-parent-box {
@@ -556,6 +558,7 @@ thead tr {
     flex-direction: column;
     border-radius: 15px;
     margin-bottom: 200px;
+    text-align: center;
 
 }
 
@@ -563,7 +566,7 @@ thead tr {
     background-color: #C6E4D6;
     text-align: center;
     width: 40%;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 
 .newsletter-content h1 {
@@ -589,12 +592,15 @@ thead tr {
     padding: 20px;
     border: none;
     font-size: 17px;
+
+    
 }
 
 .input-div {
     width: 70%;
     align-items: center;
     text-align: center;
+    margin: 0px auto 0px auto;
 }
 
 .subs-btn {
