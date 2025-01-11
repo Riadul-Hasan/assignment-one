@@ -298,33 +298,83 @@ body {
 
 
 
-/* Opinios styles */
-/* .opinion{
-    background-color: #f7ebcf;
+/* opinion */
+.opinion {
     width: 80%;
     margin: auto;
+    background-color: #f1f1f1;
+    padding: 12px;
+    margin-top: 200px;
     margin-bottom: 200px;
 }
-.opinion-title{
+
+.title {
     font-size: 40px;
+    margin: 30px 0px 30px 0px;
     padding: 10px;
-    margin-bottom: 20px;
 }
 
-.opi-subtitle{
-    display: flex;
-    justify-content: space-between;
-    font-size:25px;
-    padding: 0px 30px 0px 30px;
+table {
+    border-collapse: collapse;
+    width: 80%;
 }
-table td{
-    border: 2px solid red;
+
+.table-div {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
 }
-.first-para{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 300px;
-} */
+
+td,
+th {
+    border: 1px solid black;
+    padding: 5px 10px;
+    padding: 30px;
+    font-size: 17px;
+}
+
+table {
+    width: 100%;
+}
+
+.row {
+    height: 90px;
+}
+
+thead tr {
+    height: 90px;
+}
+
+.question {
+    text-align: start;
+    font-size: 20px;
+    background-color: #c6e4d6;
+}
+
+.opi {
+    font-size: 20px;
+}
+
+
+.select {
+    height: 44px;
+    width: 180px;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #c6e4d6;
+}
+
+.select option {
+    background-color: white;
+}
+
+.data1 {
+    /* background-color: aquamarine; */
+    width: 150px;
+}
+
 
 
 
